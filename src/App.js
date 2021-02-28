@@ -14,8 +14,8 @@ function App() {
 </div>
 
 <div style={{color: "#777",backgroundColor:"white",textAlign:"center",padding:"50px 80px",textAlign: "justify"}}>
-  <h3 style={{textAlign:"center"}}>Parallax Demo</h3>
-  <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+  <h3 style={{textAlign:"center"}}>コトノマチ（言の真知）</h3>
+  <p>私たちは音声を文字にするサービスを提供しています。お客様のニーズにお答えするために、文字起こしのエキスパートが低価格で迅速な納品を心がけております。インタビュー、ロケ素材、番組収録、講演会、AI技術向上のための音声データ、映像音声の文字起こしなどを承ります。英語音声から日本語の翻訳文字起こし、書類、文字からの翻訳も承ります。短い尺のものから、大きなプロジェクトまでお気軽にお問い合わせください。</p>
 </div>
 
 <div className={classes.bgimg2}>
@@ -26,7 +26,7 @@ function App() {
 
 <div style={{position:"relative"}}>
   <div style={{color:"#ddd",backgroundColor:"#282E34",textAlign:"center",padding:"50px 80px",textAlign: "justify"}}>
-  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  <p className={classes.subText}>Voice &nbsp; Film &nbsp; Text &nbsp; AI Learning</p>
   </div>
 </div>
 
@@ -38,13 +38,17 @@ function App() {
 
 <div style={{position:"relative"}}>
   <div style={{color:"#ddd",backgroundColor:"#282E34",textAlign:"center",padding:"50px 80px",textAlign: "justify"}}>
-  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  <p className={classes.subText}>Fast &nbsp; accurate &nbsp; service</p>
   </div>
 </div>
 
 <div className={classes.bgimg1}>
   <div className={classes.caption}>
-  <span className={classes.border}>CONTACT</span>
+  <span className={classes.border}>お問い合わせ<br></br>
+  &nbsp;anderson@kotonomachi.com<br></br>
+  &nbsp;050-5277-5381<br></br>
+  &nbsp;+1-416-912-5931<br></br>
+</span>
   </div>
 </div>
 

@@ -44,7 +44,11 @@
     letter-spacing: 10px;
   }
   
-
+.subText{
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+    text-align: center;
+}
   
   /* Turn off parallax scrolling for tablets and phones */
   @media only screen and (max-device-width: 1024px) {
